@@ -2,31 +2,361 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício</title>
-<link rel="stylesheet" href="style.css">
+  <title>Curriculo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="css/jquery.timepicker.css">
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body onload="Carregar()">
+  <div class="KW_progressContainer">
+    <div class="KW_progressBar">
+    </div>
+  </div>
+  <div class="page">
 
-    <header>
-        <h1>Hora do Dia</h1>
-    </header>
-    <section>
-        <div id="msg">
-            Mensagem
-        </div>
-        <div id="foto">
-        <img id="imagem" src="" alt="IMG">
-        </div>
-    </section>
-    <footer>
-        <P>&copy;Teste</P>
-    </footer>
+    <div id="colorlib-page">
+      <header>
+        <!-- <div>
+          <div class="row justify-content-center pb-5" style="background:greenyellow;">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <ul style="list-style: none;">
+                <li style=" display: inline-block;"><a href="#sobre">Sobre</a></li>
+                <li style=" display: inline-block;"><a href="#sobre">Sobre</a></li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+      </header>
 
-    <script src="script.js"></script>
+      <section class="home-slider owl-carousel js-fullheight">
+        <div class="slider-item js-fullheight">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-center text-center justify-content-center"
+              data-scrollax-parent="true">
+              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.1 }" style="font-family: 'Times New Roman';
+                font-style: italic;">Hello Word</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-item js-fullheight">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-center text-center justify-content-center"
+              data-scrollax-parent="true">
+              <div class="col-md-12 ftco-animate" 
+                data-scrollax=" properties: { translateY: '70%' }">
+                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">Antonio Marcos
+                  Patricio Castro</h1>
+                <p><a href="#" class="scroll">Desenvolvedor</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ftco-section about-section" id="sobre">
+        <div class="container">
+          <div class="row d-flex" data-scrollax-parent="true">
+            <div class="col-md-4 author-img" style="background-image: url(images/ft.jpg);"
+              data-scrollax=" properties: { translateY: '-70%'}"></div>
+            <div class="col-md-2"></div>
+            <div class="col-md-6 wrap ftco-animate">
+              <div class="about-desc">
+                <h1 class="bold-text">SOBRE</h1>
+                <div class="p-5">
+                  <br>
+                  <br>
+                  <br>
+                  <p id="msg" style="text-align: justify;"></p>
+                  <h5>Endereço: </h5>
+                  <p style="text-align: center;" >Rua Três , Mauro Fecury II, Nº 02, 65082-463</p>
+                  <p style="text-align: center;">São Luís - MA</p>
+                    <h5>Contatos: </h5>
+                  <p><a href="">Email:</a> <a><span class="__cf_email__"
+                        data-cfemail="98fafdfbf3f0f9f5d8fdf5f9f1f4">antonio.m.fg38@outlook.com</span></a></p>
+                  <p><a href="">Telefone:</a> <a>(98) 98432-0228</a></p>
+                  <ul class="ftco-footer-social list-unstyled mt-4">
+                    <li><a href="https://www.linkedin.com/in/antonio-marcos-castro-2bb1a5196" target="_blank"><span class="icon-linkedin"></span></a></li>
+                    <li><a
+                        href="https://api.whatsapp.com/send?phone=5598984320228&text=Ol%C3%A1%2C%20vim%20do%20seu%20curr%C3%ADculo!"
+                        target="_blank"><span class="icon-whatsapp"></span></a></li>
+                    <li><a href="https://www.instagram.com/m_tonycastro/" target="_blank"><span
+                          class="icon-instagram"></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <h2>Competências</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-layers"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">UI/UX Design</h3>
+                  <h3 class="heading">Mobile App Design</h3>
+                  <h3 class="heading">Responsive Design</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-gears"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">Product Strategy</h3>
+                  <h3 class="heading">Design Sprints</h3>
+                  <h3 class="heading">UX Strategy</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-code"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">HTML/CSS</h3>
+                  <h3 class="heading">Prototyping</h3>
+                  <h3 class="heading">User Testing</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>Portfolio</span>
+              <h2>Checkout a few of my works</h2>
+            </div>
+          </div>
+          <div class="row no-gutters">
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center"
+                style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+                <div class="icon d-flex text-center justify-content-center align-items-center">
+                  <span class="icon-search"></span>
+                </div>
+              </a>
+              <div class="text">
+                <h4 class="subheading">Illustration</h4>
+                <h2 class="heading"><a href="portfolio-single.html">Even the all-powerful Pointing has no
+                    control</a></h2>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                  unorthographic life One day however a small line of blind text.</p>
+                <p><a href="#">View Project</a></p>
+              </div>
+            </div>
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <a href="portfolio-single.html" class="image order-2 d-flex justify-content-center align-items-center"
+                style="background-image: url('images/work-2.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+                <div class="icon d-flex text-center justify-content-center align-items-center">
+                  <span class="icon-search"></span>
+                </div>
+              </a>
+              <div class="text order-1">
+                <h4 class="subheading">Application</h4>
+                <h2 class="heading"><a href="portfoli-singleo.html">Even the all-powerful Pointing has no
+                    control</a></h2>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                  unorthographic life One day however a small line of blind text.</p>
+                <p><a href="#">View Project</a></p>
+              </div>
+            </div>
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center"
+                style="background-image: url('images/work-3.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+                <div class="icon d-flex text-center justify-content-center align-items-center">
+                  <span class="icon-search"></span>
+                </div>
+              </a>
+              <div class="text">
+                <h4 class="subheading">Web Design</h4>
+                <h2 class="heading"><a href="portfolio-single.html">Even the all-powerful Pointing has no
+                    control</a></h2>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                  unorthographic life One day however a small line of blind text.</p>
+                <p><a href="#">View Project</a></p>
+              </div>
+            </div>
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <a href="portfolio-single.html" class="image order-2 d-flex justify-content-center align-items-center"
+                style="background-image: url('images/work-4.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+                <div class="icon d-flex text-center justify-content-center align-items-center">
+                  <span class="icon-search"></span>
+                </div>
+              </a>
+              <div class="text order-1">
+                <h4 class="subheading">Application</h4>
+                <h2 class="heading"><a href="portfoli-singleo.html">Even the all-powerful Pointing has no
+                    control</a></h2>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                  unorthographic life One day however a small line of blind text.</p>
+                <p><a href="#">View Project</a></p>
+              </div>
+            </div>
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center"
+                style="background-image: url('images/work-5.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+                <div class="icon d-flex text-center justify-content-center align-items-center">
+                  <span class="icon-search"></span>
+                </div>
+              </a>
+              <div class="text">
+                <h4 class="subheading">Animation</h4>
+                <h2 class="heading"><a href="portfoli-singleo.html">Even the all-powerful Pointing has no
+                    control</a></h2>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                  unorthographic life One day however a small line of blind text.</p>
+                <p><a href="#">View Project</a></p>
+              </div>
+            </div>
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <a href="portfolio-single.html" class="image order-2 d-flex justify-content-center align-items-center"
+                style="background-image: url('images/work-6.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+                <div class="icon d-flex text-center justify-content-center align-items-center">
+                  <span class="icon-search"></span>
+                </div>
+              </a>
+              <div class="text order-1">
+                <h4 class="subheading">Branding</h4>
+                <h2 class="heading"><a href="portfoli-singleo.html">Even the all-powerful Pointing has no
+                    control</a></h2>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                  unorthographic life One day however a small line of blind text.</p>
+                <p><a href="#">View Project</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ftco-section ftco-counter" id="section-counter">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>Portfolio</span>
+              <h2>I love to share my achievements</h2>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-start">
+            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <span class="ftco-label">Clients</span>
+                  <strong class="number" data-number="4">0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <span class="ftco-label">Project done</span>
+                  <strong class="number" data-number="890">0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-end">
+            <div class="col-md-5 counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <span class="ftco-label">Cups of coffee</span>
+                  <strong class="number" data-number="1000">0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+          <div class="row mb-5 justify-content-center">
+            <div class="col-md-5 text-center">
+              <div class="ftco-footer-widget mb-5">
+                <ul class="ftco-footer-social list-unstyled">
+                  <li class="ftco-animate"><a href="https://www.linkedin.com/in/antonio-marcos-castro-2bb1a5196" target="_blank"><span class="icon-linkedin"></span></a></li>
+                    <li class="ftco-animate"><a href="https://api.whatsapp.com/send?phone=5598984320228&text=Ol%C3%A1%2C%20vim%20do%20seu%20curr%C3%ADculo!" target="_blank"><span class="icon-whatsapp"></span></a></li>
+                    <li class="ftco-animate"><a href="https://www.instagram.com/m_tonycastro/" target="_blank"><span class="icon-instagram"></span></a></li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+          <div class="row justify-content-center" id="fod">
+            <div class="col-md-12 text-center">
+              <p>
+                Copyright &copy;
+                <script data-cfasync="false"
+                  src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                <script>document.write(new Date().getFullYear());</script>
+                <a href="https://colorlib.com" target="_blank">Colorlib</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+          <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+          <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+            stroke="#F96D00" />
+        </svg></div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+  </script>
 </body>
 
 </html>
