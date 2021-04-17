@@ -7329,7 +7329,7 @@ body {
     height: 100%;
     z-index: 99;
     max-width: 100%;
-    background-color: #2f89fc;
+    background-color: greenyellow;
     -webkit-transition: width .6s ease;
     -o-transition: width .6s ease;
     transition: width .6s ease; }
@@ -7905,13 +7905,18 @@ header {
     text-transform: uppercase; }
     @media (min-width: 992px) {
       .wrap .about-desc .bold-text {
-        font-size: 10em; } }
+        font-size: 8em; } }
     @media (max-width: 991.98px) {
       .wrap .about-desc .bold-text {
-        display: none; } }
-    @media (max-width: 767.98px) {
+        top:10px;
+        left: 10px;
+        font-size: 5em; } }
+    @media (max-width: 600px) {
       .wrap .about-desc .bold-text {
-        display: none; } }
+        font-size: 4em;
+        top: 5px;
+        left: 10px;
+      } }
 
 .profile {
   margin-bottom: 5em; }
@@ -8208,8 +8213,28 @@ textarea.form-control {
 
 .heading-section h2 {
   font-weight: 700;
-  font-size: 40px; }
-
+  font-family:"Times New Roman";
+  font-style: italic;
+  font-size: 110px; } 
+  @media (max-width: 991.98px) {
+.heading-section h2 {    
+      font-size: 90px; } }
+  @media (max-width: 600px) {
+.heading-section h2 {
+      font-size: 40px;
+    } }
+  
+  .heading-section  #per {
+    font-family: "Times New Roman";
+    font-weight: 700;
+    font-size: 80px; }
+    @media (max-width: 991.98px) {
+      .heading-section  #per {    
+            font-size: 50px; } }
+        @media (max-width: 600px) {
+      .heading-section  #per {
+            font-size: 20px;
+          } }
 .img,
 .author-img,
 .logo-img,
@@ -8247,8 +8272,8 @@ textarea.form-control {
   width: 100%; }
   .ftco-counter .text strong.number {
     font-weight: 400;
-    font-size: 180px;
-    color: #2f89fc; }
+    font-size: 150px;
+    color: greenyellow; }
     @media (max-width: 767.98px) {
       .ftco-counter .text strong.number {
         font-size: 80px; } }
@@ -8259,7 +8284,7 @@ textarea.form-control {
     padding-left: 4em; } }
 
 .ftco-counter .ftco-label {
-  font-size: 18px;
+  font-size: 38px;
   text-transform: uppercase;
   letter-spacing: .1em; }
 

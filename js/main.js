@@ -14,9 +14,9 @@ function Carregar(){
 	} else {
 		msg.innerHTML = 'Boa Noite, sou Antonio Marcos Patricio Castro! Desenvolvedor com conhecimento avançado em aplicações web, com linguagens como   PHP, CSS e JavaScript. Bem como experiência em desenvolvimento Mobile, como  android studio. Com competências em manutenção e montagem de redes, sites, e sistemas de gestão.'
 	}
+	
 	}
- 
- 
+
  AOS.init({
  	duration: 800,
  	easing: 'slide'
