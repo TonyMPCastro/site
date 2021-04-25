@@ -5355,6 +5355,11 @@ button.bg-dark:focus {
   -webkit-box-pack: center !important;
   -ms-flex-pack: center !important;
   justify-content: center !important; }
+  
+.top{
+  margin-top: 200px;
+
+}
 
 .justify-content-between {
   -webkit-box-pack: justify !important;
@@ -7329,7 +7334,7 @@ body {
     height: 100%;
     z-index: 99;
     max-width: 100%;
-    background-color: greenyellow;
+    background-image: linear-gradient(to right, #FB28FF, #284BFF);
     -webkit-transition: width .6s ease;
     -o-transition: width .6s ease;
     transition: width .6s ease; }
@@ -7346,9 +7351,13 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
-  color: greenyellow;
-  font-weight: 400; }
+ }
 
+ .h{
+  background-image: linear-gradient(to right, #FB28FF, #284BFF);
+  color: transparent;
+  -webkit-background-clip: text;
+ }
 .text-primary {
   color: #2f89fc !important; }
 
@@ -7746,7 +7755,9 @@ header {
         .owl-carousel.home-slider .slider-item .slider-text h1 {
           font-size:80px;
           font-family: Verdana;
-          color: greenyellow;
+          background-image: linear-gradient(to right, #FB28FF, #284BFF);
+          color: transparent;
+          -webkit-background-clip: text;
           line-height: 1.2;
           font-weight: 700;
           text-transform: uppercase;
@@ -8215,7 +8226,7 @@ textarea.form-control {
   font-weight: 700;
   font-family:"Times New Roman";
   font-style: italic;
-  font-size: 110px; } 
+  font-size: 80px; } 
   @media (max-width: 991.98px) {
 .heading-section h2 {    
       font-size: 90px; } }
@@ -8273,7 +8284,7 @@ textarea.form-control {
   .ftco-counter .text strong.number {
     font-weight: 400;
     font-size: 150px;
-    color: greenyellow; }
+     }
     @media (max-width: 767.98px) {
       .ftco-counter .text strong.number {
         font-size: 80px; } }
