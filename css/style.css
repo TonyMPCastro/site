@@ -8703,6 +8703,16 @@ display: inline-flex;  }
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
 
+    .pp{
+      font-size:20px;
+      text-align: justify;
+    }
+
+    .pp  strong{
+      font-size:30px;   
+     }
+
+
 .sidebar-box {
   margin-bottom: 30px;
   padding: 25px;
