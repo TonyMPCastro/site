@@ -1,0 +1,8 @@
+/* Correções rápidas específicas do layout do site */
+/* Evita rolamento horizontal em telas pequenas causado por elementos que usam 100vw ou margens negativas */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Se preferir, ajuste especificamente slider/elementos problemáticos em vez de aplicar globalmente */
+/* .home-slider, .js-fullheight { width: 100%; } */
