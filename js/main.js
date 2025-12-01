@@ -4,17 +4,17 @@ function Carregar(){
 	var hora = data.getHours()
 		
 	if (hora < 5) {
-		msg.innerHTML = 'Boa Madrugada, sou Antonio Marcos Patricio Castro.'
-		msg.innerHTML += 'Desenvolvedor com conhecimento avançado em aplicações web, com linguagens como   PHP, CSS e JavaScript. Bem como experiência em desenvolvimento Mobile, como  android studio. Com competências em manutenção e montagem de redes, sites, e sistemas de gestão.'
-
+		msg.innerHTML = 'Boa Madrugada, '
 	} else if (hora < 12) {
-		msg.innerHTML = 'Bom Dia, sou Antonio Marcos Patricio Castro! Desenvolvedor com conhecimento avançado em aplicações web, com linguagens como   PHP, CSS e JavaScript. Bem como experiência em desenvolvimento Mobile, como  android studio. Com competências em manutenção e montagem de redes, sites, e sistemas de gestão.'
+		msg.innerHTML = 'Bom Dia, '
 	} else if (hora < 18) {
-		msg.innerHTML = 'Boa Tarde, sou Antonio Marcos Patricio Castro! Desenvolvedor com conhecimento avançado em aplicações web, com linguagens como   PHP, CSS e JavaScript. Bem como experiência em desenvolvimento Mobile, como  android studio. Com competências em manutenção e montagem de redes, sites, e sistemas de gestão.'
+		msg.innerHTML = 'Boa Tarde, '
 	} else {
-		msg.innerHTML = 'Boa Noite, sou Antonio Marcos Patricio Castro! Desenvolvedor com conhecimento avançado em aplicações web, com linguagens como   PHP, CSS e JavaScript. Bem como experiência em desenvolvimento Mobile, como  android studio. Com competências em manutenção e montagem de redes, sites, e sistemas de gestão.'
+		msg.innerHTML = 'Boa Noite, '
 	}
 	
+	msg.innerHTML += 'sou Antonio Marcos Patricio Castro. Desenvolvedor com conhecimento avançado, utilizando linguagens como PHP, Python, JavaScript e Go. Atuação com frameworks, criando soluções robustas e escaláveis. Domínio em automação e integração de fluxos, utilização de IA generativa com ferramentas como Cursor e GitHub Copilot, otimizando produtividade e qualidade do código.'
+
 	}
 
  AOS.init({
