@@ -1,7 +1,7 @@
 # 💻 Antonio Marcos Patricio Castro — Portfólio Pessoal
 
 > **Desenvolvedor de Software (Back-end & Automação / IA)**  
-> 📍 São Luís - MA, Brasil | ✉️ [antonio.m.fg38@outlook.com](mailto:antonio.m.fg38@outlook.com) | 📱 [+55 (98) 98432-0228](https://api.whatsapp.com/send?phone=5598984320228)  
+> 📍 São Luís - MA, Brasil | ✉️ [antonio.m.fg38@outlook.com](mailto:antonio.m.fg38@outlook.com)  
 > 🔗 [LinkedIn](https://www.linkedin.com/in/antonio-marcos-castro-2bb1a5196) | [GitHub](https://github.com/TonyMPCastro) | [Portfólio Online](https://tonympcastro.github.io/site/)
 
 ---
@@ -75,6 +75,5 @@ Este repositório contém a página web de portfólio pessoal construída com HT
 ## 📬 Contatos
 
 - **E-mail:** [antonio.m.fg38@outlook.com](mailto:antonio.m.fg38@outlook.com)
-- **WhatsApp:** [+55 (98) 98432-0228](https://api.whatsapp.com/send?phone=5598984320228)
 - **LinkedIn:** [linkedin.com/in/antonio-marcos-castro-2bb1a5196](https://www.linkedin.com/in/antonio-marcos-castro-2bb1a5196)
 - **GitHub:** [github.com/TonyMPCastro](https://github.com/TonyMPCastro)
