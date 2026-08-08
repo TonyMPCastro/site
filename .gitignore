@@ -1,0 +1,5 @@
+# Arquivos a ignorar
+Currículo.pdf
+
+# Configurações do sistema / editor
+.vscode/
