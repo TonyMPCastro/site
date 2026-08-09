@@ -1,5 +1,23 @@
-# Arquivos a ignorar
+# Arquivos sensíveis / pessoais
+*.pdf
 Currículo.pdf
+Curriculo.pdf
+answers_history.json
+candidate_config.json
+screenshots/
+/screenshots
+
+
+# Sessão do navegador e modelos locais
+/linkedin_session
+/ai_model
+/venv
 
 # Configurações do sistema / editor
 .vscode/
+.env
+*.log
+
+# Python cache
+/__pycache__/
+__pycache__/

@@ -1,0 +1,24 @@
+{
+  "name": "Seu Nome Completo",
+  "email": "seu.email@exemplo.com",
+  "phone": "11999999999",
+  "city": "Sao Paulo",
+  "state": "Sao Paulo",
+  "country": "Brasil",
+  "country_code": "+55",
+  "salary_clt": "8000",
+  "salary_pj": "12000",
+  "salary_default": "8000",
+  "experience_years": "4",
+  "english_level": "Intermediario",
+  "notice_period": "1",
+  "resume_path": "Curriculo.pdf",
+  "remote_ok": "Yes",
+  "cst_timezone_flexible": "Yes",
+  "gcp_experience_years": "0",
+  "bigquery_experience_years": "0",
+  "healthcare_domain_plus": "No",
+  "known_technologies": [
+    "TypeScript", "JavaScript", "Node.js", "React", "Python", "SQL"
+  ]
+}
