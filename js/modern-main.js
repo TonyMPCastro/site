@@ -135,7 +135,7 @@ async function initGitHubRepos() {
   }
 
   reposGrid.innerHTML = repos
-    .slice(0, 6)
+    .slice(0, 8)
     .map(
       (repo) => `
       <article class="glass-card repo-card reveal active">
