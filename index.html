@@ -1,54 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta Tags -->
   <title>Antonio Marcos P. Castro | Desenvolvedor de Software Back-end & Automação IA</title>
-  <meta name="title" content="Antonio Marcos P. Castro | Desenvolvedor de Software Back-end & Automação IA">
-  <meta name="description" content="Desenvolvedor de Software especialista em Back-end, APIs RESTful, Automação de Processos com n8n e Integrações com Inteligência Artificial (ChatGPT & Claude).">
-  <meta name="keywords" content="Antonio Marcos Patricio Castro, Antonio Marcos Castro, Desenvolvedor Back-end, n8n, PHP, Laravel, Node.js, Next.js, Python, Automação, IA, São Luís, Maranhão">
-  <meta name="author" content="Antonio Marcos Patricio Castro">
-  
-  <!-- Open Graph / Facebook / LinkedIn -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://tonympcastro.github.io/site/">
-  <meta property="og:title" content="Antonio Marcos P. Castro | Desenvolvedor de Software">
-  <meta property="og:description" content="Especialista em Back-end, APIs RESTful, Automações n8n e Soluções com IA.">
-  <meta property="og:image" content="./images/perfil.jpg">
+  <meta name="title" content="Antonio Marcos P. Castro | Desenvolvedor de Software Back-end & Automação IA" />
+  <meta name="description" content="Portfólio de Antonio Marcos Patricio Castro (Tony Castro). Desenvolvedor de Software Back-end & Full-Stack (PHP, Adianti, MadBuilder, Next.js, TypeScript, Python, n8n & IA) e Engenharia da Computação (UFMA)." />
+  <meta name="keywords" content="Tony Castro, Antonio Marcos Patricio Castro, Desenvolvedor Back-end, Desenvolvedor Full-Stack, São Luís MA, UFMA, PHP, Adianti Framework, Next.js, TypeScript, n8n, IA, IoT" />
+  <meta name="author" content="Antonio Marcos Patricio Castro" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://tonympcastro.github.io/site/" />
 
-  <link rel="icon" href="./images/favicon.ico">
+  <!-- Open Graph / LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:url" content="https://tonympcastro.github.io/site/" />
+  <meta property="og:title" content="Antonio Marcos P. Castro | Desenvolvedor de Software Back-end & Automação IA" />
+  <meta property="og:description" content="Especialista em Back-end, APIs RESTful, Automações com n8n, Soluções com IA Generativa, Sistemas Web e IoT." />
+  <meta property="og:image" content="https://tonympcastro.github.io/site/assets/og-banner.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
-  <!-- Icons & Fonts -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Antonio Marcos P. Castro | Desenvolvedor de Software Back-end & Automação IA" />
+  <meta name="twitter:description" content="Especialista em Back-end, APIs RESTful, Automações com n8n, Soluções com IA Generativa, Sistemas Web e IoT." />
+  <meta name="twitter:image" content="https://tonympcastro.github.io/site/assets/og-banner.png" />
+
+  <!-- Schema.org JSON-LD (Rich Snippets do Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Antonio Marcos Patricio Castro",
+    "alternateName": "Tony Castro",
+    "url": "https://tonympcastro.github.io/site/",
+    "image": "https://avatars.githubusercontent.com/u/54753638?v=4",
+    "jobTitle": "Desenvolvedor de Software Back-end",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "i9web"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Universidade Federal do Maranhão (UFMA)"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "São Luís",
+      "addressRegion": "MA",
+      "addressCountry": "BR"
+    },
+    "knowsAbout": [
+      "PHP", "Adianti Framework", "MadBuilder", "TypeScript", "Next.js", "Node.js",
+      "PostgreSQL", "Docker", "Python", "n8n", "Inteligência Artificial", "IoT", "ESP32"
+    ],
+    "sameAs": [
+      "https://github.com/TonyMPCastro",
+      "https://www.linkedin.com/in/antonio-marcos-patricio-castro-2bb1a5196"
+    ]
+  }
+  </script>
+
+  <link rel="icon" href="./images/favicon.ico" />
+
+  <!-- Preconnect & Fonts (LCP / CLS Optimization) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
   <!-- Modern Custom Design System -->
-  <link rel="stylesheet" href="css/modern-style.css">
+  <link rel="stylesheet" href="./css/modern-style.css" />
 </head>
 <body>
 
   <!-- NAVIGATION HEADER -->
   <header class="navbar">
     <div class="container nav-container">
-      <a href="#" class="logo">
+      <a href="#hero" class="logo">
         Antonio<span>.Castro</span>
       </a>
-      
+
       <ul class="nav-links">
         <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#projetos" class="nav-link">Projetos & Cases</a></li>
         <li><a href="#experiencia" class="nav-link">Experiência</a></li>
         <li><a href="#competencias" class="nav-link">Competências</a></li>
         <li><a href="#formacao" class="nav-link">Formação</a></li>
         <li><a href="#contato" class="nav-link">Contato</a></li>
         <li>
-          <a href="mailto:antonio.m.fg38@outlook.com" class="nav-btn">
-            <i class="fa-solid fa-envelope"></i> Entrar em Contato
+          <a href="#contato" class="nav-btn">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i> Entrar em Contato
           </a>
         </li>
       </ul>
 
-      <button class="hamburger" aria-label="Abrir Menu">
-        <i class="fa-solid fa-bars"></i>
+      <button class="hamburger" aria-label="Abrir Menu de Navegação">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
       </button>
     </div>
   </header>
@@ -63,33 +116,48 @@
           </div>
 
           <h1 class="hero-title">
-            Antonio Marcos <br>
+            Antonio Marcos <br />
             <span class="gradient-text">Patricio Castro</span>
           </h1>
 
           <p class="hero-subtitle">
-            Desenvolvedor de Software focado no <strong>Back-end</strong>, especialista na criação de APIs RESTful escaláveis, 
+            Desenvolvedor de Software focado no <strong>Back-end</strong>, especialista na criação de APIs RESTful escaláveis,
             <strong>automação de fluxos complexos com n8n</strong> e integração de soluções inteligentes com <strong>IA Generativa (ChatGPT & Claude)</strong>.
           </p>
 
           <div class="hero-actions">
-            <a href="mailto:antonio.m.fg38@outlook.com" class="btn-primary">
-              <i class="fa-solid fa-paper-plane"></i> Enviar E-mail
-            </a>
-            <a href="#experiencia" class="btn-secondary">
-              <i class="fa-solid fa-briefcase"></i> Ver Experiência
+            <button
+              type="button"
+              onclick="copyEmailToClipboard('antonio.m.fg38@outlook.com', this)"
+              class="btn-primary"
+              style="border: none; font-family: inherit; font-size: 1rem; cursor: pointer;"
+              aria-live="polite"
+            >
+              📋 Copiar E-mail
+            </button>
+            <a href="#projetos" class="btn-secondary">
+              <i class="fa-solid fa-folder-open" aria-hidden="true"></i> Ver Cases & Projetos
             </a>
           </div>
 
           <div class="hero-socials">
-            <a href="https://github.com/TonyMPCastro" target="_blank" class="social-icon-btn" aria-label="GitHub">
-              <i class="fa-brands fa-github"></i>
+            <a
+              href="https://github.com/TonyMPCastro"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-icon-btn"
+              aria-label="Acessar perfil do GitHub de Tony Castro"
+            >
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
             </a>
-            <a href="https://www.linkedin.com/in/antonio-marcos-patricio-castro-2bb1a5196?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="social-icon-btn" aria-label="LinkedIn">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-            <a href="mailto:antonio.m.fg38@outlook.com" class="social-icon-btn" aria-label="E-mail">
-              <i class="fa-solid fa-envelope"></i>
+            <a
+              href="https://www.linkedin.com/in/antonio-marcos-patricio-castro-2bb1a5196?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-icon-btn"
+              aria-label="Acessar perfil do LinkedIn de Tony Castro"
+            >
+              <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
             </a>
           </div>
         </div>
@@ -97,10 +165,18 @@
         <div class="hero-avatar-wrapper">
           <div class="avatar-glow"></div>
           <div class="avatar-card">
-            <img src="images/perfil.jpg" alt="Antonio Marcos Patricio Castro" class="avatar-img">
+            <img
+              src="./images/perfil.jpg"
+              alt="Foto de perfil de Antonio Marcos Patricio Castro (Tony Castro)"
+              width="340"
+              height="400"
+              fetchpriority="high"
+              decoding="async"
+              class="avatar-img"
+            />
             <div class="avatar-badge">
               <div class="badge-icon">
-                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-code" aria-hidden="true"></i>
               </div>
               <div class="badge-text">
                 <h4>Software Developer</h4>
@@ -117,7 +193,7 @@
   <section class="section" id="sobre">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-tag"><i class="fa-solid fa-user"></i> Sobre Mim</span>
+        <span class="section-tag"><i class="fa-solid fa-user" aria-hidden="true"></i> Sobre Mim</span>
         <h2 class="section-title">Resumo <span class="gradient-text">Profissional</span></h2>
         <p class="section-subtitle">Eficiência, escalabilidade e inovação orientadas ao desenvolvimento de software.</p>
       </div>
@@ -126,7 +202,7 @@
         <div class="glass-card about-card-large reveal">
           <h3 style="font-size: 1.5rem; margin-bottom: 1rem;" class="gradient-text-alt">Construindo soluções robustas & automatizadas</h3>
           <p style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.8;">
-            Desenvolvedor de Software focado no <strong>back-end</strong>, com sólida experiência na criação de soluções escaláveis e automação de processos empresariais. Destaco-me pelo uso intensivo de ferramentas <strong>low-code (n8n)</strong> e <strong>Inteligência Artificial generativa</strong> no fluxo de trabalho, acelerando significativamente as entregas e aumentando a qualidade do código. Possuo capacidade comprovada para integrar sistemas, otimizar tarefas repetitivas e trabalhar de forma proficiente com múltiplas linguagens e frameworks.
+            Desenvolvedor de Software focado no <strong>back-end</strong>, com sólida experiência na criação de soluções escaláveis e automação de processos empresariais. Destaco-me pelo uso intensivo de ferramentas <strong>low-code (n8n, MadBuilder, Adianti)</strong> e <strong>Inteligência Artificial generativa</strong> no fluxo de trabalho, acelerando significativamente as entregas e aumentando a qualidade do código. Possuo capacidade comprovada para integrar sistemas, otimizar tarefas repetitivas e trabalhar de forma proficiente com múltiplas linguagens e frameworks.
           </p>
 
           <div class="about-highlights">
@@ -148,17 +224,66 @@
     </div>
   </section>
 
+  <!-- PROJETOS HÍBRIDOS: CASES EM DESTAQUE + REPOSITÓRIOS GITHUB -->
+  <section class="section" id="projetos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="fa-solid fa-rocket" aria-hidden="true"></i> Portfólio Híbrido</span>
+        <h2 class="section-title">Cases em Destaque & <span class="gradient-text">Projetos</span></h2>
+        <p class="section-subtitle">Soluções corporativas, pesquisas acadêmicas na UFMA e repositórios open-source.</p>
+      </div>
+
+      <!-- Filtros de Categoria -->
+      <div class="project-filters reveal" role="tablist" aria-label="Filtrar projetos por categoria">
+        <button type="button" class="filter-btn active" data-filter="all">Todos os Cases</button>
+        <button type="button" class="filter-btn" data-filter="saas-govtech">SaaS & GovTech</button>
+        <button type="button" class="filter-btn" data-filter="web-mobile">Web & Mobile</button>
+        <button type="button" class="filter-btn" data-filter="iot-pesquisa">IoT & Pesquisa (UFMA)</button>
+      </div>
+
+      <!-- Cases Comerciais e Acadêmicos (Populado por data/featuredCases.js) -->
+      <div id="featured-cases-grid" class="cases-grid">
+        <noscript>
+          <p style="color: var(--text-muted); text-align: center;">Ative o JavaScript para filtrar dinamicamente os cases e repositórios.</p>
+        </noscript>
+      </div>
+
+      <!-- Repositórios Públicos do GitHub com Cache localStorage (services/githubService.js) -->
+      <div class="repos-subsection-header reveal">
+        <h3 class="repos-subsection-title">
+          <i class="fa-brands fa-github" aria-hidden="true"></i> Repositórios Públicos Recentes
+        </h3>
+        <a
+          href="https://github.com/TonyMPCastro?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-secondary"
+          style="padding: 0.55rem 1.25rem; font-size: 0.9rem;"
+          aria-label="Ver todos os repositórios públicos no GitHub de Tony Castro"
+        >
+          Ver perfil completo no GitHub <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div id="github-repos-grid" class="repos-grid">
+        <div class="glass-card" style="grid-column: 1 / -1; text-align: center;">
+          <p style="color: var(--text-muted);">Carregando repositórios do GitHub (@TonyMPCastro)...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- EXPERIÊNCIA PROFISSIONAL -->
   <section class="section" id="experiencia">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Trajetória</span>
+        <span class="section-tag"><i class="fa-solid fa-briefcase" aria-hidden="true"></i> Trajetória</span>
         <h2 class="section-title">Experiência <span class="gradient-text">Profissional</span></h2>
         <p class="section-subtitle">Histórico de atuação em desenvolvimento, engenharia de software e suporte.</p>
       </div>
 
       <div class="timeline">
-        
+
         <!-- i9web -->
         <div class="timeline-item reveal">
           <div class="timeline-dot"></div>
@@ -169,7 +294,7 @@
             </div>
             <p class="role-title">Desenvolvedor de Software (Back-end) | São Luís – MA</p>
             <ul class="role-bullets">
-              <li>Desenvolvimento de APIs RESTful e manutenção de sistemas utilizando <strong>PHP</strong> e o framework <strong>MadBuilder</strong>.</li>
+              <li>Desenvolvimento de APIs RESTful e manutenção de sistemas utilizando <strong>PHP</strong> e os frameworks <strong>MadBuilder</strong> e <strong>Adianti</strong>.</li>
               <li>Arquitetura e criação de fluxos complexos de automação com <strong>n8n</strong> para setores de cobrança, gestão de processos tributários e disparo em massa de mensagens.</li>
               <li>Integração de soluções baseadas em <strong>IA Generativa (ChatGPT e Claude)</strong> diretamente nas regras de negócio para triagem e análise avançada de dados.</li>
             </ul>
@@ -232,68 +357,69 @@
   <section class="section" id="competencias">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-tag"><i class="fa-solid fa-gears"></i> Expertise</span>
+        <span class="section-tag"><i class="fa-solid fa-gears" aria-hidden="true"></i> Expertise</span>
         <h2 class="section-title">Competências & <span class="gradient-text">Tecnologias</span></h2>
-        <p class="section-subtitle">Linguagens, frameworks, ferramentas de automação e Inteligência Artificial.</p>
+        <p class="section-subtitle">Linguagens, frameworks, ferramentas de automação, IoT e Inteligência Artificial.</p>
       </div>
 
       <div class="skills-grid">
-        
+
         <!-- Linguagens -->
         <div class="glass-card reveal">
           <h3 class="skill-category-title">
-            <i class="fa-solid fa-code skill-category-icon"></i> Linguagens
+            <i class="fa-solid fa-code skill-category-icon" aria-hidden="true"></i> Linguagens
           </h3>
           <div class="skill-tags">
-            <span class="skill-tag"><i class="fa-brands fa-php"></i> PHP</span>
-            <span class="skill-tag"><i class="fa-brands fa-python"></i> Python</span>
-            <span class="skill-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
-            <span class="skill-tag"><i class="fa-solid fa-bolt"></i> Go</span>
-            <span class="skill-tag"><i class="fa-brands fa-java"></i> Java</span>
-            <span class="skill-tag"><i class="fa-solid fa-c"></i> C/C++</span>
-            <span class="skill-tag"><i class="fa-solid fa-database"></i> SQL</span>
+            <span class="skill-tag"><i class="fa-brands fa-php" aria-hidden="true"></i> PHP</span>
+            <span class="skill-tag"><i class="fa-brands fa-js" aria-hidden="true"></i> TypeScript / JS</span>
+            <span class="skill-tag"><i class="fa-brands fa-python" aria-hidden="true"></i> Python</span>
+            <span class="skill-tag"><i class="fa-solid fa-bolt" aria-hidden="true"></i> Go</span>
+            <span class="skill-tag"><i class="fa-brands fa-java" aria-hidden="true"></i> Java</span>
+            <span class="skill-tag"><i class="fa-solid fa-c" aria-hidden="true"></i> C/C++ (ESP32)</span>
+            <span class="skill-tag"><i class="fa-solid fa-database" aria-hidden="true"></i> SQL (PostgreSQL/MySQL)</span>
           </div>
         </div>
 
         <!-- Frameworks & Ferramentas -->
         <div class="glass-card reveal">
           <h3 class="skill-category-title">
-            <i class="fa-solid fa-layer-group skill-category-icon"></i> Frameworks & Ferramentas
+            <i class="fa-solid fa-layer-group skill-category-icon" aria-hidden="true"></i> Frameworks & Ferramentas
           </h3>
           <div class="skill-tags">
-            <span class="skill-tag"><i class="fa-brands fa-react"></i> Next.js (React/TS)</span>
-            <span class="skill-tag"><i class="fa-brands fa-node-js"></i> Node.js</span>
-            <span class="skill-tag"><i class="fa-brands fa-laravel"></i> Laravel</span>
-            <span class="skill-tag"><i class="fa-brands fa-python"></i> Django</span>
-            <span class="skill-tag"><i class="fa-brands fa-docker"></i> Docker</span>
-            <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git</span>
+            <span class="skill-tag"><i class="fa-brands fa-react" aria-hidden="true"></i> Next.js & React Native</span>
+            <span class="skill-tag"><i class="fa-brands fa-node-js" aria-hidden="true"></i> Node.js & Prisma ORM</span>
+            <span class="skill-tag"><i class="fa-brands fa-laravel" aria-hidden="true"></i> Laravel</span>
+            <span class="skill-tag"><i class="fa-brands fa-python" aria-hidden="true"></i> Django</span>
+            <span class="skill-tag"><i class="fa-brands fa-docker" aria-hidden="true"></i> Docker & Turborepo</span>
+            <span class="skill-tag"><i class="fa-brands fa-git-alt" aria-hidden="true"></i> Git</span>
           </div>
         </div>
 
         <!-- Low-Code & RAD -->
         <div class="glass-card reveal">
           <h3 class="skill-category-title">
-            <i class="fa-solid fa-diagram-project skill-category-icon"></i> Low-Code & RAD
+            <i class="fa-solid fa-diagram-project skill-category-icon" aria-hidden="true"></i> Low-Code, RAD & IoT
           </h3>
           <div class="skill-tags">
-            <span class="skill-tag"><i class="fa-solid fa-network-wired"></i> n8n (Automações)</span>
-            <span class="skill-tag"><i class="fa-solid fa-cubes"></i> MadBuilder</span>
-            <span class="skill-tag"><i class="fa-solid fa-sliders"></i> Scriptcase</span>
-            <span class="skill-tag"><i class="fa-solid fa-window-restore"></i> Adianti</span>
+            <span class="skill-tag"><i class="fa-solid fa-network-wired" aria-hidden="true"></i> n8n (Automações)</span>
+            <span class="skill-tag"><i class="fa-solid fa-cubes" aria-hidden="true"></i> MadBuilder</span>
+            <span class="skill-tag"><i class="fa-solid fa-window-restore" aria-hidden="true"></i> Adianti Framework</span>
+            <span class="skill-tag"><i class="fa-solid fa-sliders" aria-hidden="true"></i> Scriptcase</span>
+            <span class="skill-tag"><i class="fa-solid fa-microchip" aria-hidden="true"></i> MQTT & Node-RED</span>
           </div>
         </div>
 
         <!-- Inteligência Artificial -->
         <div class="glass-card reveal">
           <h3 class="skill-category-title">
-            <i class="fa-solid fa-robot skill-category-icon"></i> Inteligência Artificial
+            <i class="fa-solid fa-robot skill-category-icon" aria-hidden="true"></i> Inteligência Artificial
           </h3>
           <div class="skill-tags">
-            <span class="skill-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Prompt Engineering</span>
-            <span class="skill-tag"><i class="fa-solid fa-comments"></i> ChatGPT API</span>
-            <span class="skill-tag"><i class="fa-solid fa-brain"></i> Claude API</span>
-            <span class="skill-tag"><i class="fa-solid fa-terminal"></i> Cursor</span>
-            <span class="skill-tag"><i class="fa-solid fa-code-branch"></i> GitHub Copilot</span>
+            <span class="skill-tag"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> Prompt Engineering</span>
+            <span class="skill-tag"><i class="fa-solid fa-comments" aria-hidden="true"></i> OpenAI / ChatGPT API</span>
+            <span class="skill-tag"><i class="fa-solid fa-brain" aria-hidden="true"></i> Anthropic Claude API</span>
+            <span class="skill-tag"><i class="fa-solid fa-code-branch" aria-hidden="true"></i> GitHub Copilot & Cursor</span>
+            <span class="skill-tag"><i class="fa-solid fa-chart-line" aria-hidden="true"></i> Otimização & Metaheurísticas</span>
           </div>
         </div>
 
@@ -305,20 +431,20 @@
   <section class="section" id="formacao">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Acadêmico</span>
+        <span class="section-tag"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Acadêmico</span>
         <h2 class="section-title">Formação <span class="gradient-text">Acadêmica</span></h2>
         <p class="section-subtitle">Graus acadêmicos e certificações técnicas.</p>
       </div>
 
       <div class="edu-grid">
-        
+
         <div class="glass-card edu-card reveal">
           <div>
             <span class="edu-status status-ongoing">Em Andamento</span>
             <h3 class="edu-title">Engenharia da Computação</h3>
             <p class="edu-inst">Universidade Federal do Maranhão (UFMA)</p>
           </div>
-          <p class="edu-detail">Foco em arquitetura de sistemas, algoritmos e engenharia de hardware/software.</p>
+          <p class="edu-detail">Foco em arquitetura de sistemas, inteligência computacional, IoT e engenharia de hardware/software.</p>
         </div>
 
         <div class="glass-card edu-card reveal">
@@ -343,22 +469,43 @@
     </div>
   </section>
 
-  <!-- CONTACT BANNER -->
+  <!-- COMPONENTE DE CONTATO DE ALTA CONVERSÃO -->
   <section class="section" id="contato">
     <div class="container">
       <div class="contact-banner reveal">
         <h2>Vamos construir algo <span class="gradient-text">incrível juntos?</span></h2>
         <p>Estou disponível para novas oportunidades, projetos de desenvolvimento back-end e automações inteligentes com n8n e IA.</p>
-        
+
         <div class="contact-actions">
-          <a href="mailto:antonio.m.fg38@outlook.com" class="btn-primary">
-            <i class="fa-solid fa-envelope"></i> Enviar E-mail
+          <!-- Botão: Copiar E-mail para a Área de Transferência com Feedback Visual -->
+          <button
+            type="button"
+            onclick="copyEmailToClipboard('antonio.m.fg38@outlook.com', this)"
+            class="btn-primary"
+            style="border: none; font-family: inherit; font-size: 1rem; cursor: pointer;"
+            aria-live="polite"
+          >
+            📋 Copiar E-mail
+          </button>
+
+          <a
+            href="https://www.linkedin.com/in/antonio-marcos-patricio-castro-2bb1a5196?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-secondary"
+            aria-label="Acessar perfil do LinkedIn de Tony Castro"
+          >
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn
           </a>
-          <a href="https://www.linkedin.com/in/antonio-marcos-patricio-castro-2bb1a5196?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="btn-secondary">
-            <i class="fa-brands fa-linkedin"></i> LinkedIn
-          </a>
-          <a href="https://github.com/TonyMPCastro" target="_blank" class="btn-secondary">
-            <i class="fa-brands fa-github"></i> GitHub
+
+          <a
+            href="https://github.com/TonyMPCastro"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-secondary"
+            aria-label="Acessar perfil do GitHub de Tony Castro"
+          >
+            <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub
           </a>
         </div>
       </div>
@@ -368,23 +515,58 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-content">
-      <a href="#" class="logo">
+      <a href="#hero" class="logo">
         Antonio<span>.Castro</span>
       </a>
 
       <div class="footer-socials">
-        <a href="https://github.com/TonyMPCastro" target="_blank" class="social-icon-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/antonio-marcos-patricio-castro-2bb1a5196?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="social-icon-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="mailto:antonio.m.fg38@outlook.com" class="social-icon-btn" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a
+          href="https://github.com/TonyMPCastro"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="social-icon-btn"
+          aria-label="Acessar perfil do GitHub de Tony Castro"
+        >
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/antonio-marcos-patricio-castro-2bb1a5196?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="social-icon-btn"
+          aria-label="Acessar perfil do LinkedIn de Tony Castro"
+        >
+          <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+        </a>
       </div>
 
       <p class="footer-text">
-        &copy; <script>document.write(new Date().getFullYear())</script> Antonio Marcos Patricio Castro. Todos os direitos reservados.
+        &copy; <span id="current-year">2026</span> Antonio Marcos Patricio Castro. Todos os direitos reservados.
       </p>
     </div>
   </footer>
 
-  <!-- Scripts -->
-  <script src="js/modern-main.js"></script>
+  <!-- Inline Helper for Clipboard & Dynamic Year -->
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    async function copyEmailToClipboard(email, buttonElement) {
+      const originalHTML = buttonElement.innerHTML;
+      try {
+        await navigator.clipboard.writeText(email);
+        buttonElement.innerHTML = '✅ E-mail copiado!';
+        buttonElement.disabled = true;
+        setTimeout(() => {
+          buttonElement.innerHTML = originalHTML;
+          buttonElement.disabled = false;
+        }, 2500);
+      } catch (err) {
+        window.location.href = `mailto:${email}`;
+      }
+    }
+  </script>
+
+  <!-- Main Application Module -->
+  <script type="module" src="./js/modern-main.js"></script>
 </body>
 </html>
